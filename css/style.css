@@ -1,10 +1,4 @@
-/*
-    Theme Name: OnePage
-    Theme URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-/* ==== Google font ==== */
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 @import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
 
@@ -24,6 +18,89 @@ p {
 	font-size:16px;
 
 }
+
+.images{    border: solid 1px gainsboro;
+  margin-top: 26pxPX;
+    border-radius: 116px;
+    max-width: 100%;
+    height: auto;
+  }
+
+.acc-titel {
+ 
+  border: solid 1.5px black;
+  border-radius: 16px;
+  position: relative;
+  background: RGB(133,182,222);
+  padding: 20px;
+  margin-bottom: 1px;
+  color: white;
+  transition: background .1s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.acc-titel:after {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 100;
+  content:'+';
+  font-size: 1em;
+  line-height: 1.15em;
+  color: #fff;
+  float: right;
+  height: 20px;
+  width: 20px;
+  border: solid 1px #fff;
+  border-radius: 50%;
+  text-align: center;
+  transition: all .4s cubic-bezier(0.5,0.2,0.3,1);
+}
+
+.acc-titel:hover {
+  z-index: 2;
+  background:  RGB(44,109,163);
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 1px 3px 4px rgba(0,0,0,0.2);
+}
+
+.active {
+  background: RGB(44,109,163);
+  BORDER: SOLID;
+  BORDER-COLOR: BLACK;
+}
+
+.active:after {
+  content:'+';
+  transform: rotate(405deg);
+}
+
+.acc-content {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(5px);
+  background: RGB(224,241,255);
+  padding: 0 20px;
+  margin-bottom: 1px;
+  overflow: hidden;
+  transition: max-height .4s ease, opacity .8s ease, transform .8s ease;
+  border: solid;
+  border-radius: 29px;
+}
+
+
+
+#h {
+  font-size: 21px;
+  line-height: 1.5em;
+  padding: 20px 0 10px 0;
+  color: #755;
+}
+
+#p {
+  font-size: 16px;
+  line-height: 1.5em;
+  padding-bottom: 35px;
+}
+
 
 .btn-primary {
   padding: 8px 20px;
@@ -430,6 +507,7 @@ p {
 }
 
 .panel-group .panel{
+  background-color: white;
   border-radius: 0;
 }
 
