@@ -45,7 +45,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#home">Home</a></li>
         <li><a href="">Courses</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
           </ul>
         </div>
         <!-- /.Navbar-collapse -->
