@@ -1,5 +1,4 @@
- 
-
+ //Accordion JavaScript code @roaa mashina
 var accordion = document.getElementsByClassName("acc-titel");
 var i;
 
