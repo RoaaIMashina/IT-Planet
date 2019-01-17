@@ -16,6 +16,7 @@
   <link href="css/animate.css" rel="stylesheet" />
   <link href="css/prettyPhoto.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/contactus.css" rel="stylesheet">
   <!-- =======================================================
     Theme Name: OnePage
     Theme URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
