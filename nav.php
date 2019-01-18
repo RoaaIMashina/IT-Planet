@@ -17,12 +17,7 @@
   <link href="css/prettyPhoto.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/contactus.css" rel="stylesheet">
-  <!-- =======================================================
-    Theme Name: OnePage
-    Theme URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
+ 
 </head>
 
 <body>
@@ -44,7 +39,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">Home</a></li>
+            <li><a href="index.php">Home</a></li>
         <li><a href="">Courses</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
