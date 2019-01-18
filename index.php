@@ -315,16 +315,9 @@ This tutorial will teach you CSS from basic to advanced.</p>
   </footer>
   <!--/#footer-->
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/jquery.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.prettyPhoto.js"></script>
-  <script src="js/jquery.isotope.min.js"></script>
-  <script src="js/wow.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="contactform/contactform.js"></script>
+  
+  <script src="js/acc.js"></script>
+
 
 </body>
 
