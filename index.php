@@ -311,41 +311,82 @@ This tutorial will teach you CSS from basic to advanced.</p>
   </section>
   <!--/#portfolio-item-->
 
-  <section id="features">
-    <div class="container">
+<section id="features">
+   
       <div class="row">
         <div class="center">
           <div class="col-md-6 col-md-offset-3">
-            <h2>Features</h2>
+            <h2>Web Development Roadmaps</h2>
             <hr>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-              ut</p>
+            <p class="lead">Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript.
+
+Responsive Web Design is used in all types of modern web development.</p>
           </div>
-        </div>
+		  
+		  
+		   <div class="row">
+		  
+		  
+               <div class="col-md-4 wow fadeInUp">
+                    <h3>CSS</h3>
+                    <div class="column">
+                    <img src="images/3.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                    <p>Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading 
+					Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.  </div>
+                    </div>
+      
+               
+                    <div class="col-md-4 wow fadeInUp">
+                    <h3>CSS</h3>
+                    <div class="column">
+                    <img src="images/4.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                    <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language
+					like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript
+					</div>
+                    </div>
+					
+					
+					
+                   <div class="col-md-4 wow fadeInRight">
+                   <h3>JavaScrpit</h3>
+                   <div class="column">
+           <video id="myVideo" width="320" height="176" controls="controls">
+  <source src="images/5.mp4" type="video/mp4"> <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>     <p>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. 
+It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm </div>
+                   </div>
+		     </div>   
+             </div>
+             </div>
+             
+    
+   <div id="myModal" class="modal">
+   
 
-        <div class="col-md-4 wow fadeInLeft">
-          <h3>Responsive</h3>
-          <img src="images/portfolio/recent/item4.png" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut non
-            cupidatat skateboard dolor brunch.</p>
-        </div>
+   <div class="modal-content">  
 
-        <div class="col-md-4 wow fadeInUp">
-          <h3>Web Design</h3>
-          <img src="images/portfolio/recent/item5.png" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut non
-            cupidatat skateboard dolor brunch.</p>
-        </div>
+                             <span class="close cursor" onclick="closeModal()">&times;</span>
+   </div>
 
-        <div class="col-md-4 wow fadeInRight">
-          <h3>Easy Customize</h3>
-          <img src="images/portfolio/recent/item6.png" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut non
-            cupidatat skateboard dolor brunch.</p>
-        </div>
-      </div>
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/3.png" style="width:100%;max-width:1000px">
+	   <span class="close cursor" onclick="closeModal()">&times;</span>
     </div>
-  </section>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/4.png" style="width:100%;max-width:1000px">
+	   <span class="close cursor" onclick="closeModal()">&times;</span>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/3.png" style="width:100%;max-width:1000px">
+	   <span class="close cursor" onclick="closeModal()">&times;</span>
+    </div> 
+</section>
 <?php
 include 'footer.php';
 ?>
