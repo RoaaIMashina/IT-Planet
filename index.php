@@ -328,9 +328,9 @@ Responsive Web Design is used in all types of modern web development.</p>
 		  
 		  
                <div class="col-md-4 wow fadeInUp">
-                    <h3>CSS</h3>
+                    <h3>HTML</h3>
                     <div class="column">
-                    <img src="images/3.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                    <img src="images/html.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
                     <p>Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading 
 					Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.  </div>
                     </div>
@@ -339,7 +339,7 @@ Responsive Web Design is used in all types of modern web development.</p>
                     <div class="col-md-4 wow fadeInUp">
                     <h3>CSS</h3>
                     <div class="column">
-                    <img src="images/4.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                    <img src="images/css.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
                     <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language
 					like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript
 					</div>
@@ -351,7 +351,7 @@ Responsive Web Design is used in all types of modern web development.</p>
                    <h3>JavaScrpit</h3>
                    <div class="column">
            <video id="myVideo" width="320" height="176" controls="controls">
-  <source src="images/5.mp4" type="video/mp4"> <source src="mov_bbb.ogg" type="video/ogg">
+  <source src="video/js.mp4" type="video/mp4"> <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
 </video>     <p>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. 
 It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm </div>
@@ -371,13 +371,13 @@ It is a language that is also characterized as dynamic, weakly typed, prototype-
 
     <div class="mySlides">
       <div class="numbertext"></div>
-      <img src="images/3.png" style="width:100%;max-width:1000px">
+      <img src="images/html.png" style="width:100%;max-width:1000px">
 	   <span class="close cursor" onclick="closeModal()">&times;</span>
     </div>
 
     <div class="mySlides">
       <div class="numbertext"></div>
-      <img src="images/4.png" style="width:100%;max-width:1000px">
+      <img src="images/css.png" style="width:100%;max-width:1000px">
 	   <span class="close cursor" onclick="closeModal()">&times;</span>
     </div>
 
