@@ -1,4 +1,4 @@
-
+//java script code to view the picture in accordion
 
 var timesClicked = 0;
 $(document).ready(function(){
