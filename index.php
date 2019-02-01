@@ -392,7 +392,8 @@ include 'footer.php';
 ?>
 
   <!--/#footer-->
-
+    
+  <script src="js/popup2.js"></script>
   
   <script src="js/acc.js"></script>
 
