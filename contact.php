@@ -6,14 +6,14 @@ include "nav.php";
 <html lang="en">
 
 <head>
-
+  <link href="css/contactus.css" rel="stylesheet">
 </head>
 
 <body>
 
 
 	<div id="contact-form">
-<form id="contact" method="post" >
+<form  method="post" >
 <fieldset>
 <p>
 <label> Name </label>
