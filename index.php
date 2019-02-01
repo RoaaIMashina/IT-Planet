@@ -9,7 +9,8 @@ include 'nav.php';
 </head>
 
 <body>
- 
+   <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/acc2.js"></script>
 <!-- login form @ola khja-->
 	<div id="contact2">
 	   <section id="features" class="login">
@@ -93,11 +94,17 @@ include 'nav.php';
       </div>
     </div>
 
-    <div class="container">
+     <div class="container">
       <div class="row">
         <div class="col-sm-6 wow fadeInRight">
-          <img src="images/1.png" class="img-responsive" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni autem minus sint, commodi.</p>
+          <img src="images/1.png" id="img" class="images" style="margin-top: -25px;" />
+          <img src="images/blog-org-1199-1512633780-css .jpg" class="images" id="img1" />
+          <img src="images/Java-1-Introduction.png" class="images" id="img2" />
+          <img src="images/1_kUCC6Ikv-F35y3wG5edz9w.jpeg" class="images" id="img3" />
+          <img src="images/microsoft2010-word1.jpg" class="images" id="img4" />
+          
+
+           
 
         </div>
         <!--/.col-sm-6-->
