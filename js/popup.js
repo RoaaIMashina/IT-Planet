@@ -43,3 +43,36 @@ $(document).ready(function() {
 })
 
 
+/*@Ola khoja */
+/* validating login form*/
+
+	$(document).ready(function (){
+			$("#login").on('click',function(){  
+				var uid = $("#uid").val();
+				var pwd = $("#pwd").val();
+				if (uid == "" || pwd == "")
+					alert('please Fill in all inputs');
+				else{
+					$.ajax(
+					{
+						url:'mylogin.php',
+						method:'POST',
+						data: {
+							login:1,
+							uid: uid,
+							pwd: pwd
+						},
+						success: function(response){
+							$("#response").html(response);
+							
+							if (response.indexOf('success') >= 0)
+								window.location = 'index.php';
+						},
+						dataType: 'text'
+					}
+					);
+				}
+			});
+		});
+	
+
