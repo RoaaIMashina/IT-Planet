@@ -16,8 +16,10 @@
   <link href="css/animate.css" rel="stylesheet" />
   <link href="css/prettyPhoto.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/Portfolio.css" rel="stylesheet">
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popup.js"></script>
+  <script src="js/Portfolio.js"></script>
 </head>
 
 <body>
