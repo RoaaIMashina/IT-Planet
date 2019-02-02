@@ -5,7 +5,7 @@ include 'nav.php';
 <html lang="en">
 
 <head>
- 
+ <script src="js/Portfolio.js"></script>
 </head>
 
 <body>
