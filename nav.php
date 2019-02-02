@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,6 +22,9 @@
   <link href="css/Portfolio.css" rel="stylesheet">
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popup.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   
 </head>
 
@@ -30,18 +36,51 @@
     margin-bottom: -29px;"></a>
         </div>
 
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div id="menu">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="">courses</a></li>
-            <li><a href="contact.php">contact</a></li>
-            <li id="loginLink"><a  href="#">login</a></li>
-            <li id="signuplink"><a href="#">sign up</a></li>
-          </ul>
-        </div>
-        <!-- /.Navbar-collapse -->
+    <!-- @Ola khoja -->
+       <div id="menu">
+		<?php
+		if(isset($_SESSION['u_email'])){
+			if($_SESSION['u_type'] == 1){
+				echo '<a href=""><img  class="settings-logo" src="images/icons8-settings.svg" width="50px" height="50px"></a>';
+			}
+			
+			// 1 means admin and 0 means normal user.
+			if($_SESSION['u_type'] == 1 || $_SESSION['u_type'] == 0){
+			echo 
+				'<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="courses.php">courses</a>
+						<ul> 
+							<li> <a href="#">Web Design</a></li>
+							<li> <a href="#">Programming Language</a></li>
+							<li> <a href="#">Microsoft</a></li>
+						</ul>
+					</li>
+					
+				';
+					if($_SESSION['u_type'] == 0){
+						echo'<li><a href="contact.php">contact</a></li>';
+					}
+					echo'<li>
+							<form action="mylogout.php" method="post" class="logout">
+								<button class="logout" type="submit" name="logout" onclick="mylogout.php">Logout</button>
+							</form>
+						</li>
+				</ul>';
+			}
+		}
+		else
+		{
+			echo
+				'<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="contact.php">contact</a></li>
+					<li id="loginLink"><a  href="#">login</a></li>
+					<li id="signuplink"><a href="#">sign up</a></li>
+				</ul>';
+		}
+	?>
+	</div>
   </nav>
 </body>
 </html>
