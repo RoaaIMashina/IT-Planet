@@ -23,25 +23,26 @@ include 'nav.php';
 			</div> 
 			 <div class="members-content">
 			
-					<form method="POST" action="" class="login-form">  
+					<form method="POST" action="mylogin.php" class="login-form">  
 					  <input type="hidden" name="login" value="true">
 					  
 					   <p>
-						<strong>Username or Email: </strong><br>
-						<input type="text" name="username">
+						<strong> Email: </strong><br>
+						<input type="email" name="uid" id="uid" required>
 					  </p>
 		
 					  <p>
 					   <strong>Password: </strong><br>
-					   <input type="password" name="password">
+					   <input type="password" name="pwd" id="pwd" required>
 					  </p>
 		
+					  <p id="response">  </p>
 					  <p>
 					
-					 <input type="submit" class="btn btn-primary" name="login" value="Log in"> &nbsp; 
+					 <input type="button" id="login" class="btn btn-primary" value="Log in"> &nbsp; 
 					  </p>
 		
-					</form>                         
+					</form>                        
 			 </div>
 	  </section>
 	</div>
