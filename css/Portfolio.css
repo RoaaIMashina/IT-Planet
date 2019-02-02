@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+#portfolio { margin-top:200px;}
+#myBtnContainer { margin-left:500px; }
+.img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 167px; 
+  height : 167px;}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  
+}
+
+.row {
+ margin : 8px -16px ;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#pf{ width : 350px ;
+  display: block; 
+  position: relative;
+  float:left;
+  overflow: hidden; 
+  padding:0;
+  margin: 1%;} 
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 18px 28px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+-----------
+/* Document Styling */
+
+.gallery{
+  display:block;
+  width:700px;
+  margin:10% auto;
+ 
+}
+
+
+
+
+figcaption { 
+  position: absolute; 
+  left:0;
+  height:99%;
+  background: rgba(215, 40, 40, 0.5); 
+  padding: 0; 
+  width:50%;
+  margin-left:90px;
+  
+
+ /*Starting Position and animation */
+  top: -100%;
+
+   transition: all 0.5s ease;
+ -webkit-transition: all 0.5s ease;
+  -moz-transition:    all 0.5s ease;
+  -o-transition:      all 0.5s ease;
+}
+
+/* Inside text Styling  */
+
+ figcaption p, a{
+   text-align:center;
+   margin:0 auto;
+   color:#fff;
+   padding:72% 5%;
+   text-decoration: none;
+   font-size: 20px;
+ }
+
+/* Hover */
+
+figure:hover figcaption {
+  opacity: 1;
+  top: 0%;
+
+}
+
+
+
+
