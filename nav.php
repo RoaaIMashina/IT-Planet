@@ -49,7 +49,7 @@
 			echo 
 				'<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="courses.php">courses</a>
+					<li><a href="#">courses</a>
 						<ul> 
 							<li> <a href="#">Web Design</a></li>
 							<li> <a href="#">Programming Language</a></li>
