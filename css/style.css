@@ -156,7 +156,7 @@ p {
 	    padding: 79px 128px 0px 0px;
 }
 
-.navbar-fixed-top ul.nav li a {
+.navbar-fixed-top ul.nav li a, .logout {
 	font-size: 14px;
 	letter-spacing: 3px;
     color: #000;
@@ -203,7 +203,9 @@ p {
 
 .navbar-fixed-top .nav li a:hover,
 .navbar-fixed-top .nav li a:focus,
-.navbar-fixed-top.nav li.active {
+.navbar-fixed-top.nav li.active,
+.logout:hover,
+.logout:focus{
     outline: 0;
   
 	color:#2487cd ;
@@ -778,3 +780,53 @@ textarea#message{
 } 
 
 
+.logout {
+	border :none ;
+	background-color: inherit;
+	margin: 5px;
+}
+
+.settings-logo{
+	margin-top:40px;
+	float:right;
+	margin-right:40px;
+	margin-left:0;
+}
+
+nav ul {
+	float:right;
+}
+nav ul li {
+	list-style:none;
+	float: right;
+	float:right;
+	position:relative;
+}
+nav  ul li ul {
+	display:none;
+	position:absolute;
+	background-color:#f8f8f8;
+	padding: 10px;
+	border-radius: 0px 0px 10px 10px;
+	padding:10px;
+}
+nav  ul li:hover ul {
+	display:block;
+}
+nav  ul li ul li  {
+		width:285px;
+		margin:6px;
+		border-radius:10px;
+}
+nav  ul li ul li a {
+		padding: 10px 14px;
+}
+nav  ul li ul li a:hover {
+		background-color:lightgray;
+		text-decoration:none;
+		
+}
+#response{
+	color:red;
+	font-weight:bold;
+}
