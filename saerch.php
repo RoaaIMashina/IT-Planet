@@ -21,8 +21,8 @@ $(document).ready(function(){
 
 .closed {
   position: absolute;
-  top:60px;
- left:510px;
+  top:80px;
+ left:480px;
   color: #00BCD4;
   font-size: 20px;
   font-weight: bold;
