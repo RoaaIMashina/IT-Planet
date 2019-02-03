@@ -35,7 +35,14 @@ $(document).ready(function(){
   text-decoration: none;
   cursor: pointer;
 }
-
+.input-group{
+	 margin-left:-160px;
+}
+#result {
+		 margin-left:-1000px;
+	
+	
+}
 </style>
 </head>
 <body>
