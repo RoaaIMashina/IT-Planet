@@ -1,12 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
-}
 
 
 /* Center website */
@@ -29,29 +20,7 @@ h1 {
   
 }
 
-.row {
- margin : 8px -16px ;
-}
 
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  display: none; /* Hide columns by default */
-}
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 #pf{ width : 350px ;
   display: block; 
   position: relative;
@@ -128,7 +97,7 @@ figcaption {
    text-align:center;
    margin:0 auto;
    color:#fff;
-   padding:72% 5%;
+ 
    text-decoration: none;
    font-size: 20px;
  }
