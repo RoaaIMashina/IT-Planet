@@ -30,9 +30,7 @@
   <footer id="footer" class="midnight-blue">
 
             <a href="#top" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
-	  <?php
-         include 'saerch.php';
-         ?>
+	 
           <div class="text">
           &copy; OnePage Theme. All Rights Reserved.<br>
         
