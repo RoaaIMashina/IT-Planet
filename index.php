@@ -225,7 +225,7 @@ This tutorial will teach you CSS from basic to advanced.</p>
 </div>
 <!--end portfolio-->
 <!--aya.almokhzanji@gmail.com-->
-
+<!--popup image-->
 <section id="features">
    
       <div class="row">
