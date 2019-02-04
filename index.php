@@ -244,7 +244,7 @@ Responsive Web Design is used in all types of modern web development.</p>
 		  
                <div class="col-md-4 wow fadeInUp">
                     <h3>HTML</h3>
-                    <div class="column">
+                    <div >
                     <img src="images/html.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
                     <p>Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading 
 					Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.  </div>
@@ -253,7 +253,7 @@ Responsive Web Design is used in all types of modern web development.</p>
                
                     <div class="col-md-4 wow fadeInUp">
                     <h3>CSS</h3>
-                    <div class="column">
+                    <div >
                     <img src="images/css.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
                     <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language
 					like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript
@@ -264,7 +264,7 @@ Responsive Web Design is used in all types of modern web development.</p>
 					
                    <div class="col-md-4 wow fadeInRight">
                    <h3>JavaScrpit</h3>
-                   <div class="column">
+                   <div >
            <video id="myVideo" width="320" height="176" controls="controls">
   <source src="video/js.mp4" type="video/mp4"> <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
