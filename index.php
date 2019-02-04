@@ -287,20 +287,16 @@ It is a language that is also characterized as dynamic, weakly typed, prototype-
     <div class="mySlides">
       <div class="numbertext"></div>
       <img src="images/html.png" style="width:100%;max-width:1000px">
-	   <span class="close cursor" onclick="closeModal()">&times;</span>
+	
     </div>
 
     <div class="mySlides">
       <div class="numbertext"></div>
       <img src="images/css.png" style="width:100%;max-width:1000px">
-	   <span class="close cursor" onclick="closeModal()">&times;</span>
+	
     </div>
 
-    <div class="mySlides">
-      <div class="numbertext"></div>
-      <img src="images/3.png" style="width:100%;max-width:1000px">
-	   <span class="close cursor" onclick="closeModal()">&times;</span>
-    </div> 
+ 
 </section>
 <?php
 include 'footer.php';
