@@ -52,10 +52,10 @@
 				'<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="#">courses</a>
-						<ul> 
-							<li> <a href="#">Web Design</a></li>
-							<li> <a href="#">Programming Language</a></li>
-							<li> <a href="#">Microsoft</a></li>
+						<ul>  
+							<li> <a href="courses/Web Design.php">Web Design</a></li>
+							<li> <a href="courses/Programming Language.php" >Programming Language</a></li>
+							<li> <a href="courses/Microsoft.php" >Microsoft</a></li>
 						</ul>
 					</li>
 					
