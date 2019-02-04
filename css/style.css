@@ -710,8 +710,7 @@ textarea#message{
 .login {
 	width:400px;
 	margin: auto;
-	border: 3px solid black;
-	background-color:#83b6da;
+	background-color:#a6d3ea;
 	border-radius:15px;
 }
 .h2 {
