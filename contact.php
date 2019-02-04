@@ -70,7 +70,7 @@ include "nav.php";
 					  <input type="hidden" name="login" value="true">
 					  
 					   <p>
-						<strong> Email: </strong><br>
+						<strong  class= "emstyle"> Email: </strong><br>
 						<input type="email" name="uid" id="uid" required>
 					  </p>
 		
