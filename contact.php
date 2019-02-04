@@ -12,41 +12,48 @@ include "nav.php";
 <body>
 
 
-	<div id="contact-form">
-<form  method="post" >
-<fieldset>
-<p>
-<label> Name </label>
-<input type="text" name="fistname" placeholder="name" autofocus="autofocus" class="input1"  /><br/>
-</p>
-<p>
-<label> E-mail Address </label>
-<input type="email" name="email" placeholder="email address" required class="input1" /><br/>
-</p>
-<p>
-<label> Phone Number</label>
-<input type="text" id="phone" class="input1" placeholder="phone number " pattern="[0-9]{3}[0-9]{3}[0-9]{4}" title="xxx-xxx-xxxx"/><br/>
-</p>
-<label>Sex:</label>
-<p>
-<input type="radio" name="gender" value="male"  class="input2" checked> Male
+ <section >
+    <div class="contact">
+      <div class="container">
+        <div class="center">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="row contact-wrap">
+          <div class="col-md-8 col-md-offset-2">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                  data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
+                  data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
+                  data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
+                  placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
 
-<input type="radio" name="gender" value="female"  class="input2" > Female
-</p>
-
-<p>
-<label>Notes</label>
-</p>
-<p>
-<textarea></textarea>
-</p>
-<p class="submit">		
-<input type="submit" name="submit" id="submit" value="submit" class="input1"/>
-</p>
-</fieldset>
-</form>
-</div>
-
+              <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </div>
+    <!--/#contact-page-->
+  </section>
 
 <div id="contact2">
 	   <section id="features" class="login">
@@ -63,7 +70,7 @@ include "nav.php";
 					  <input type="hidden" name="login" value="true">
 					  
 					   <p>
-						<strong> Email: </strong><br>
+						<strong  class= "emstyle"> Email: </strong><br>
 						<input type="email" name="uid" id="uid" required>
 					  </p>
 		

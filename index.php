@@ -72,7 +72,7 @@ include 'nav.php';
 					  <input type="hidden" name="login" value="true">
 					  
 					   <p>
-						<strong> Email: </strong><br>
+						<strong class= "emstyle"> Email: </strong><br>
 						<input type="email" name="uid" id="uid" required>
 					  </p>
 		
@@ -101,7 +101,7 @@ include 'nav.php';
         </div>
           <div class="form-container">
              
-            <form action="db.php" method="post"  class="contactForm">
+            <form action="singup.php" method="post"  class="contactForm">
               <div class="form-group">
                 <input type="text" name="Fname" class="form-control" id="Fname" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 3 chars" />
                 <div class="validation"></div>
@@ -214,7 +214,7 @@ This tutorial will teach you CSS from basic to advanced.</p>
     <!--/.container-->
   </section>
   <!--/#accordion-->
-
+<!-- portfolio by : hajer layas -->
 <div id= "portfolio">
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
@@ -225,92 +225,55 @@ This tutorial will teach you CSS from basic to advanced.</p>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-<div class="gallery">
 
-  <figure>
   <div class="column Web Devolepment" id="pf">
       <img src="images/notpad.png" alt="Notpad++" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Notpad++</a></p>
-	</figcaption>
-  </div></figure>
+ </div>
   
-  <figure>
-  <div class="column Web Devolepment" id="pf">
+<div class="column Web Devolepment" id="pf">
       <img src="images/sublime.png" alt="Sublime" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Sublime</a></p>
-	</figcaption>
-    </div></figure>
-  
-  <figure>
+    </div>
+	
   <div class="column Web Devolepment" id="pf">
       <img src="images/atom.png" alt="Atom" class="img" >
-	  	<figcaption>
-    <p><a href="" alt="">Atom</a></p>
-	</figcaption>
-    </div></figure>
+    </div>
 	
-	   <figure>
-	  <div class="column Microsoft" id="pf">
+  <div class="column Microsoft" id="pf">
       <img src="images/word.png" alt="Microsoft Word" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Microsoft Word</a></p>
-	</figcaption>
-    </div></figure>
-
-  <figure>
+</div>
+	
   <div class="column Programming" id="pf">
       <img src="images/codeblocks.png" alt="Codeblocks" class="img" >
-	  	<figcaption>
-    <p><a href="" alt="">Codeblocks</a></p>
-	</figcaption>
-  </div></figure>
-  
-  <figure>
+ </div>
+	
   <div class="column Programming" id="pf">
       <img src="images/netbeans.png" alt="Netbeans" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Netbeans</a></p>
-	</figcaption>
-    </div></figure>
+  </div>
   
-  <figure>
-  <div class="column Microsoft" id="pf">
+<div class="column Microsoft" id="pf">
       <img src="images/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" >
-	  	<figcaption>
-    <p><a href="" alt="">Microsoft Powerpoint</a></p>
-	</figcaption>
-</div></figure>
-  
-  <figure>
+</div>
+	
   <div class="column Microsoft" id="pf">
       <img src="images/access.png" alt="Microsoft Access" class="img" >
-	  	<figcaption>
-    <p><a href="" alt="">Microsoft Access</a></p>
-	</figcaption>
-  </div></figure>
-  
-  <figure>
+ </div>
+	
     <div class="column Programming" id="pf">
       <img src="images/eclipse.png" alt="Eclipse" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Eclipse</a></p>
-	</figcaption>
-  </div></figure>
-  
-  <figure>
+</div>
+	
    <div class="column Microsoft" id="pf">
       <img src="images/exal.png" alt="Microsoft Excel" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Microsoft Excel</a></p>
-	</figcaption>
-    </div></figure>
+ </div>
 <!-- END GRID -->
 </div>
 </div>
 <!--end portfolio-->
-
+	 <?php
+         include 'searchcode.php';
+         ?>
+<!--aya.almokhzanji@gmail.com-->
+<!--popup image-->
 <section id="features">
    
       <div class="row">
@@ -329,7 +292,7 @@ Responsive Web Design is used in all types of modern web development.</p>
 		  
                <div class="col-md-4 wow fadeInUp">
                     <h3>HTML</h3>
-                    <div class="column">
+                    <div >
                     <img src="images/html.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
                     <p>Hypertext Markup Language is the standard markup language for creating web pages and web applications. With Cascading 
 					Style Sheets and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.  </div>
@@ -338,7 +301,7 @@ Responsive Web Design is used in all types of modern web development.</p>
                
                     <div class="col-md-4 wow fadeInUp">
                     <h3>CSS</h3>
-                    <div class="column">
+                    <div >
                     <img src="images/css.png"  style="width:100%;max-width:300px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
                     <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language
 					like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript
@@ -349,7 +312,7 @@ Responsive Web Design is used in all types of modern web development.</p>
 					
                    <div class="col-md-4 wow fadeInRight">
                    <h3>JavaScrpit</h3>
-                   <div class="column">
+                   <div >
            <video id="myVideo" width="320" height="176" controls="controls">
   <source src="video/js.mp4" type="video/mp4"> <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
@@ -372,27 +335,23 @@ It is a language that is also characterized as dynamic, weakly typed, prototype-
     <div class="mySlides">
       <div class="numbertext"></div>
       <img src="images/html.png" style="width:100%;max-width:1000px">
-	   <span class="close cursor" onclick="closeModal()">&times;</span>
+	
     </div>
 
     <div class="mySlides">
       <div class="numbertext"></div>
       <img src="images/css.png" style="width:100%;max-width:1000px">
-	   <span class="close cursor" onclick="closeModal()">&times;</span>
+	
     </div>
 
-    <div class="mySlides">
-      <div class="numbertext"></div>
-      <img src="images/3.png" style="width:100%;max-width:1000px">
-	   <span class="close cursor" onclick="closeModal()">&times;</span>
-    </div> 
+ 
 </section>
 <?php
 include 'footer.php';
 ?>
 
   <!--/#footer-->
-    
+    <!--end:  aya.almokhzanji@gmail.com-->
   <script src="js/popup2.js"></script>
   
   <script src="js/acc.js"></script>
