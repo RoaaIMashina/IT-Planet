@@ -169,7 +169,7 @@ This tutorial will teach you CSS from basic to advanced.</p>
     <!--/.container-->
   </section>
   <!--/#accordion-->
-
+<!-- portfolio by : hajer layas -->
 <div id= "portfolio">
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
@@ -180,87 +180,46 @@ This tutorial will teach you CSS from basic to advanced.</p>
 
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-<div class="gallery">
 
-  <figure>
   <div class="column Web Devolepment" id="pf">
-      <img src="images/notpad.png" alt="Notpad++" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Notpad++</a></p>
-	</figcaption>
-  </div></figure>
+      <img src="portfolio/notpad.png" alt="Notpad++" class="img">
+ </div>
   
-  <figure>
-  <div class="column Web Devolepment" id="pf">
-      <img src="images/sublime.png" alt="Sublime" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Sublime</a></p>
-	</figcaption>
-    </div></figure>
-  
-  <figure>
-  <div class="column Web Devolepment" id="pf">
-      <img src="images/atom.png" alt="Atom" class="img" >
-	  	<figcaption>
-    <p><a href="" alt="">Atom</a></p>
-	</figcaption>
-    </div></figure>
+<div class="column Web Devolepment" id="pf">
+      <img src="portfolio/sublime.png" alt="Sublime" class="img">
+    </div>
 	
-	   <figure>
-	  <div class="column Microsoft" id="pf">
-      <img src="images/word.png" alt="Microsoft Word" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Microsoft Word</a></p>
-	</figcaption>
-    </div></figure>
-
-  <figure>
-  <div class="column Programming" id="pf">
-      <img src="images/codeblocks.png" alt="Codeblocks" class="img" >
-	  	<figcaption>
-    <p><a href="" alt="">Codeblocks</a></p>
-	</figcaption>
-  </div></figure>
-  
-  <figure>
-  <div class="column Programming" id="pf">
-      <img src="images/netbeans.png" alt="Netbeans" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Netbeans</a></p>
-	</figcaption>
-    </div></figure>
-  
-  <figure>
+  <div class="column Web Devolepment" id="pf">
+      <img src="portfolio/atom.png" alt="Atom" class="img" >
+    </div>
+	
   <div class="column Microsoft" id="pf">
-      <img src="images/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" >
-	  	<figcaption>
-    <p><a href="" alt="">Microsoft Powerpoint</a></p>
-	</figcaption>
-</div></figure>
+      <img src="portfolio/word.png" alt="Microsoft Word" class="img">
+</div>
+	
+  <div class="column Programming" id="pf">
+      <img src="portfolio/codeblocks.png" alt="Codeblocks" class="img" >
+ </div>
+	
+  <div class="column Programming" id="pf">
+      <img src="portfolio/netbeans.png" alt="Netbeans" class="img">
+  </div>
   
-  <figure>
+<div class="column Microsoft" id="pf">
+      <img src="portfolio/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" >
+</div>
+	
   <div class="column Microsoft" id="pf">
-      <img src="images/access.png" alt="Microsoft Access" class="img" >
-	  	<figcaption>
-    <p><a href="" alt="">Microsoft Access</a></p>
-	</figcaption>
-  </div></figure>
-  
-  <figure>
+      <img src="portfolio/access.png" alt="Microsoft Access" class="img" >
+ </div>
+	
     <div class="column Programming" id="pf">
-      <img src="images/eclipse.png" alt="Eclipse" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Eclipse</a></p>
-	</figcaption>
-  </div></figure>
-  
-  <figure>
+      <img src="portfolio/eclipse.png" alt="Eclipse" class="img">
+</div>
+	
    <div class="column Microsoft" id="pf">
-      <img src="images/exal.png" alt="Microsoft Excel" class="img">
-	  	<figcaption>
-    <p><a href="" alt="">Microsoft Excel</a></p>
-	</figcaption>
-    </div></figure>
+      <img src="portfolio/exal.png" alt="Microsoft Excel" class="img">
+ </div>
 <!-- END GRID -->
 </div>
 </div>
