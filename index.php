@@ -138,7 +138,8 @@ include 'nav.php';
         <div class="col-md-6 col-md-offset-3">
           <h2>the most shosen courses</h2>
           <hr>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+          <p class="lead">welcome to our website  <br> we provide several types of courses of information technology 
+		  <br> sign up now to check them out!</p>
         </div>
       </div>
     </div>
