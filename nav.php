@@ -22,7 +22,7 @@
   <link href="css/Portfolio.css" rel="stylesheet">
   
   
-  <script src="js/admen.js"></script>
+  <script src="js/adman.js"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popup.js"></script>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
