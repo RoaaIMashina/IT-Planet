@@ -6,19 +6,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
  </head>
- <body>
-  <div class="container">
-   <br />
- <script>
-$(document).ready(function(){
-  $("span").click(function(){
-    $("div").remove(".t");
-  });
-});
-
-</script>
-
-</head>
+ 
 <body>
 
 
@@ -30,7 +18,7 @@ $(document).ready(function(){
 
    </div>
    <br />
-   <div id="result" class="t"></div>
+   <div id="result"></div>
   </div>
  </body>
 </html>
