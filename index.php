@@ -131,6 +131,9 @@ include 'nav.php';
 <!--#accordion-->
   <section id="about">
     <div class="container">
+	     <?php
+         include 'searchcode.php';
+         ?>
       <div class="center">
         <div class="col-md-6 col-md-offset-3">
           <h2>the most shosen courses</h2>
@@ -269,9 +272,7 @@ This tutorial will teach you CSS from basic to advanced.</p>
 </div>
 </div>
 <!--end portfolio-->
-	 <?php
-         include 'searchcode.php';
-         ?>
+	
 <!--aya.almokhzanji@gmail.com-->
 <!--popup image-->
 <section id="features">
