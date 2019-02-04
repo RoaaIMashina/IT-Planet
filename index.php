@@ -182,43 +182,43 @@ This tutorial will teach you CSS from basic to advanced.</p>
 <div class="row">
 
   <div class="column Web Devolepment" id="pf">
-      <img src="portfolio/notpad.png" alt="Notpad++" class="img">
+      <img src="images/notpad.png" alt="Notpad++" class="img">
  </div>
   
 <div class="column Web Devolepment" id="pf">
-      <img src="portfolio/sublime.png" alt="Sublime" class="img">
+      <img src="images/sublime.png" alt="Sublime" class="img">
     </div>
 	
   <div class="column Web Devolepment" id="pf">
-      <img src="portfolio/atom.png" alt="Atom" class="img" >
+      <img src="images/atom.png" alt="Atom" class="img" >
     </div>
 	
   <div class="column Microsoft" id="pf">
-      <img src="portfolio/word.png" alt="Microsoft Word" class="img">
+      <img src="images/word.png" alt="Microsoft Word" class="img">
 </div>
 	
   <div class="column Programming" id="pf">
-      <img src="portfolio/codeblocks.png" alt="Codeblocks" class="img" >
+      <img src="images/codeblocks.png" alt="Codeblocks" class="img" >
  </div>
 	
   <div class="column Programming" id="pf">
-      <img src="portfolio/netbeans.png" alt="Netbeans" class="img">
+      <img src="images/netbeans.png" alt="Netbeans" class="img">
   </div>
   
 <div class="column Microsoft" id="pf">
-      <img src="portfolio/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" >
+      <img src="images/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" >
 </div>
 	
   <div class="column Microsoft" id="pf">
-      <img src="portfolio/access.png" alt="Microsoft Access" class="img" >
+      <img src="images/access.png" alt="Microsoft Access" class="img" >
  </div>
 	
     <div class="column Programming" id="pf">
-      <img src="portfolio/eclipse.png" alt="Eclipse" class="img">
+      <img src="images/eclipse.png" alt="Eclipse" class="img">
 </div>
 	
    <div class="column Microsoft" id="pf">
-      <img src="portfolio/exal.png" alt="Microsoft Excel" class="img">
+      <img src="images/exal.png" alt="Microsoft Excel" class="img">
  </div>
 <!-- END GRID -->
 </div>
