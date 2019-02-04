@@ -20,6 +20,9 @@
   <link href="css/prettyPhoto.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/Portfolio.css" rel="stylesheet">
+  
+  
+  <script src="js/admen.js"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popup.js"></script>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
@@ -35,13 +38,12 @@
     margin-top: -29px;
     margin-bottom: -29px;"></a>
         </div>
-
     <!-- @Ola khoja -->
        <div id="menu">
 		<?php
 		if(isset($_SESSION['u_email'])){
 			if($_SESSION['u_type'] == 1){
-				echo '<a href=""><img  class="settings-logo" src="images/icons8-settings.svg" width="50px" height="50px"></a>';
+				echo '<ul><li id="admen"><a href="#"><img  class="settings-logo" src="images/icons8-settings.svg" width="50px" height="50px"></a></li></ul>';
 			}
 			
 			// 1 means admin and 0 means normal user.
@@ -82,5 +84,8 @@
 	?>
 	</div>
   </nav>
+
+
+
 </body>
 </html>
