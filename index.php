@@ -56,7 +56,7 @@ include 'nav.php';
         </div>
           <div class="form-container">
              
-            <form action="db.php" method="post"  class="contactForm">
+            <form action="singup.php" method="post"  class="contactForm">
               <div class="form-group">
                 <input type="text" name="Fname" class="form-control" id="Fname" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 3 chars" />
                 <div class="validation"></div>
