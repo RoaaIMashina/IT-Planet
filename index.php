@@ -224,6 +224,7 @@ This tutorial will teach you CSS from basic to advanced.</p>
 </div>
 </div>
 <!--end portfolio-->
+<!--aya.almokhzanji@gmail.com-->
 
 <section id="features">
    
@@ -306,7 +307,7 @@ include 'footer.php';
 ?>
 
   <!--/#footer-->
-    
+    <!--end:  aya.almokhzanji@gmail.com-->
   <script src="js/popup2.js"></script>
   
   <script src="js/acc.js"></script>
