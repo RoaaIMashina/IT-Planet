@@ -1,0 +1,93 @@
+/*body{
+	background-color:#b2d3ea;
+	color:black;
+}*/
+.inline-container > div{
+	display:inline-block;
+	margin-top:110px;
+}
+.inline-container{
+	display:flex;
+}
+#C{
+	margin-right:0;
+	margin: 110px 20px -1px -1px;
+    border: solid;
+    padding: 12px 33px 10px 44px;}
+}
+
+.courses1 {
+	margin-top:100px;
+}
+
+.courses{
+	margin-top:110px;
+	/*margin-left:250px;*/
+	margin-right:10px;
+}
+/*.htmlp, .cssp{
+	display:inline;
+}*/
+.firstp{
+	display:inline;
+}
+/*.html-container, .css-container{
+	margin-left:10px;
+}*/
+.Ccontainer{
+	margin-left:10px;
+}
+/*.html, .css{
+	margin-left:450px;
+	font-weight:bold;
+	color:blue;
+	font-family : helvertica;
+	
+}*/
+.Ctitle{
+	margin-left:450px;
+	font-weight:bold;
+	color:blue;
+	font-family : helvertica;
+	margin-top:60px;
+}
+.video1 {
+	margin-left:50px;
+	margin-bottom:0;
+}
+
+/*.csslogo, .csslogo {
+	margin-left:0;
+	
+}*/
+.Clogo{
+	margin-left:0;
+	width:12%;
+	height:12%;
+}
+/*nooooooooooo*/
+/*.cssp,.htmlp {
+	display:inline;
+	margin-left:100px;
+}*/
+
+/*.headings,.list, .form, .cssnav{
+	margin-top: 10px ;
+	margin-bottom:10px;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+	border:2px solid black;
+	
+}*/
+.Cimg{
+	margin-top: 10px ;
+	margin-bottom:10px;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
+	border:2px solid black;
+	width:55%;
+	height: 55%;
+}
+
