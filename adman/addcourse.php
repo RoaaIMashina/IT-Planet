@@ -169,9 +169,10 @@ $sql = "select id_C, nameC FROM cursess;";
                           processData:false,  
                           success:function(data)  
                           {  
-                               alert(data);  
-                               $('#user_form')[0].reset();  
-                               load_data();  
+                               
+                               alert("data inserted");
+                                $('#user_form')[0].reset(); 
+                                load_data(); 
                           }  
                      })  
                 }  
