@@ -1,6 +1,7 @@
 
 <?php  
-//@roaa mashina  
+//@roaa mashina
+  include 'nav.php';
  include 'CursessTable.php';  
  $object = new CT();
  $servername="localhost";
@@ -19,12 +20,8 @@ $conn= new mysqli($servername,$username,$password,$dbname);
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
            <style>  
-                body  
-                {  
-                     margin:0;  
-                     padding:0;  
-                     background-color:#f1f1f1;  
-                }  
+              
+                .la{ font-size: 15px;}
                 .box  
                 {  
                         width: 1480px;
@@ -32,7 +29,7 @@ $conn= new mysqli($servername,$username,$password,$dbname);
     background-color: RGB(224,241,255);
     border: 1px solid #ccc;
     border-radius: 44px;
-    margin-top: 100px; 
+    margin-top: 240px; 
                 }
                 .table-responsive {
                   height: 55%;
@@ -46,7 +43,8 @@ $conn= new mysqli($servername,$username,$password,$dbname);
 
     tbody {    background: #ebeff2;
     border: solid #a6a9ab;
-    border-radius: 86px;} 
+    border-radius: 86px;
+  font-size: 10px;} 
 
     .table-bordered {
     border: 1px solid #0a0a0a;}
@@ -74,37 +72,37 @@ $sql = "select id_C, nameC FROM cursess;";
     while($row = $result->fetch_assoc()) {
  echo '<li  ><input type="radio" id="id" name="id" value='.$row['id_C'].'>' . $row['nameC'] . '</li>';}}?> 
 </ul> <br /> <br />  
-                          <label>Enter the paht of logo</label>  
+                          <label class="la">Enter the paht of logo</label>  
                           <input type="text" name="logo" id="logo" class="form-control" />  
                           <br />  
-                          <label>Enter name of course</label>  
+                          <label class="la">Enter name of course</label>  
                           <input type="text" name="name" id="name" class="form-control" />  
                           <br />  
-                          <label>enter explanation</label>  
+                          <label class="la">enter explanation</label>  
                           <input type="text" name="exp" id="exp" class="form-control"/>  
                           <br />  
-                          <label>enter content of course</label>  
+                          <label class="la">enter content of course</label>  
                           <input type="text" name="cont" id="cont" class="form-control"/>  
                           <br /> 
-                          <label>enter example</label>  
+                          <label class="la">enter example</label>  
                           <input type="text" name="exa" id="exa" class="form-control"/>  
                           <br /> 
-                          <label>enter paht of image 1</label>  
+                          <label class="la">enter paht of image 1</label>  
                           <input type="text" name="im1" id="im1" class="form-control"/>  
                           <br /> 
-                          <label>enter explaint about the images</label>  
+                          <label class="la">enter explaint about the images</label>  
                           <input type="text" name="ex" id="ex" class="form-control"/>  
                           <br /> 
-                          <label>enter path of image 2</label>  
+                          <label class="la">enter path of image 2</label>  
                           <input type="text" name="im2" id="im2" class="form-control"/>  
                           <br /> 
-                          <label>enter path of video 1</label>  
+                          <label class="la">enter path of video 1</label>  
                           <input type="text" name="v1" id="v1" class="form-control"/>  
                           <br /> 
-                          <label>enter path of video 2</label>  
+                          <label class="la">enter path of video 2</label>  
                           <input type="text" name="v2" id="v2" class="form-control"/>  
                           <br /> 
-                          <label>enter path of poster</label>  
+                          <label class="la">enter path of poster</label>  
                           <input type="text" name="p" id="p" class="form-control"/>  
                           <br /> 
                           <div align="center">  
@@ -118,10 +116,14 @@ $sql = "select id_C, nameC FROM cursess;";
 
 
                 <br /><br /> 
+<p style="margin: 10px 10px 25px 468px;
+    font-size: 27px;">The Courses Table</p>
+                <div id="user_table" class="table-responsive">
 
-                <div id="user_table" class="table-responsive">  
                 </div>  
-           </div>  
+           </div> 
+           <?php  
+  include 'footer.php';?> 
       </body>  
  </html>  
  <script type="text/javascript">  
