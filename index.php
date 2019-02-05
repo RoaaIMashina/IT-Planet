@@ -148,7 +148,7 @@ include 'nav.php';
          ?>
       <div class="center">
         <div class="col-md-6 col-md-offset-3">
-          <h2>the most shosen courses</h2>
+          <h2>the most chosen courses</h2>
           <hr>
           <p class="lead">welcome to our website  <br> we provide several types of courses of information technology 
 		  <br> sign up now to check them out!</p>
@@ -233,7 +233,10 @@ This tutorial will teach you CSS from basic to advanced.</p>
 <!-- portfolio by : hajer layas -->
 
 <div id= "portfolio">
-<h4 style="margin-left: 250px;">YOU CAN GET TO KNOW WHAT ARE THE BEST PROGRAMS TO USE IN THE FOLLOWING SECTIONS HERE :</h4>
+<div id="portfolio-intro">
+	The following applications represent the most important<br> tools for learning the courses <br>available in this<br> website<br>
+	<div id="portfolio-click">click below to check them out</div> 
+</div>
 <div id="myBtnContainer">
 
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
