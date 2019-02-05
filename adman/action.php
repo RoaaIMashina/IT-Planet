@@ -32,7 +32,22 @@ include 'CursessTable.php';
            ";  
            $object->execute_query($query);  
            echo 'Data Inserted';  
-      }  
+      } 
+  
+  //aya.almokhzanji@gmail.com
+  //delet from table
+   if($_POST["action"] == "Delete")  
+      {    
+  $id =mysqli_real_escape_string($object->connect, $_POST["id"]);  
+    $checkbox = $_POST['id'];
+for($i=0;$i<count($checkbox);$i++){
+$del_id = $checkbox[$i];
+$sql2 = "DELETE FROM lecture WHERE id_L =' $del_id'";
+$object->execute_query($sql2);  
+           echo 'Data Deleted'; 
+}}
+    
+            
 
 }
  
