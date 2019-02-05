@@ -94,14 +94,17 @@ include 'nav.php';
   
   <!-- sign up form @ola khja-->
   <section id="contact">
-    <div class="contact-page" style="width:50%;">
+    <div class="contact-page" style="width:40%;">
      
         <div class="join">
           <h2>Join Us</h2>
         </div>
           <div class="form-container">
              
-            <form action="singup.php" method="post"  class="contactForm">
+            <form action="singup.php" method="post"  class="contactForm"style="
+    width: 60%;
+    margin-left: 20%;
+">
               <div class="form-group">
                 <input type="text" name="Fname" class="form-control" id="Fname" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 3 chars" />
                 <div class="validation"></div>
