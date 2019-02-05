@@ -27,7 +27,7 @@ $conn= new mysqli($servername,$username,$password,$dbname);
                 }  
                 .box  
                 {  
-                        width: 1666px;
+                        width: 1480px;
     padding: 20px;
     background-color: RGB(224,241,255);
     border: 1px solid #ccc;
@@ -35,6 +35,7 @@ $conn= new mysqli($servername,$username,$password,$dbname);
     margin-top: 100px; 
                 }
                 .table-responsive {
+                  height: 55%;
     width: 100%;
     min-height: .01%;
     overflow-x: auto;}
