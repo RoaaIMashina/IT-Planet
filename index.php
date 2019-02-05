@@ -94,14 +94,17 @@ include 'nav.php';
   
   <!-- sign up form @ola khja-->
   <section id="contact">
-    <div class="contact-page" style="width:50%;">
+    <div class="contact-page" style="width:40%;">
      
         <div class="join">
           <h2>Join Us</h2>
         </div>
           <div class="form-container">
              
-            <form action="singup.php" method="post"  class="contactForm">
+            <form action="singup.php" method="post"  class="contactForm"style="
+    width: 60%;
+    margin-left: 20%;
+">
               <div class="form-group">
                 <input type="text" name="Fname" class="form-control" id="Fname" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 3 chars" />
                 <div class="validation"></div>
@@ -131,11 +134,15 @@ include 'nav.php';
 <!--#accordion-->
   <section id="about">
     <div class="container">
+	     <?php
+         include 'searchcode.php';
+         ?>
       <div class="center">
         <div class="col-md-6 col-md-offset-3">
           <h2>the most shosen courses</h2>
           <hr>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+          <p class="lead">welcome to our website  <br> we provide several types of courses of information technology 
+		  <br> sign up now to check them out!</p>
         </div>
       </div>
     </div>
@@ -269,9 +276,7 @@ This tutorial will teach you CSS from basic to advanced.</p>
 </div>
 </div>
 <!--end portfolio-->
-	 <?php
-         include 'searchcode.php';
-         ?>
+	
 <!--aya.almokhzanji@gmail.com-->
 <!--popup image-->
 <section id="features">
@@ -313,7 +318,7 @@ Responsive Web Design is used in all types of modern web development.</p>
                    <div class="col-md-4 wow fadeInRight">
                    <h3>JavaScrpit</h3>
                    <div >
-           <video id="myVideo" width="320" height="176" controls="controls">
+           <video id="myVideo" width="320" height="176" controls="controls" poster="images/css.png">
   <source src="video/js.mp4" type="video/mp4"> <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
 </video>     <p>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. 

@@ -36,7 +36,7 @@
         <div class="site-logo">
           <a href="index.php" class="brand"><img src="images/logo.png" style="    width: 15%;
     margin-top: -29px;
-    margin-bottom: -29px;"></a>
+    margin-bottom: -29px; margin-left: 150px;"></a>
         </div>
     <!-- @Ola khoja -->
        <div id="menu">
@@ -52,10 +52,10 @@
 				'<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="#">courses</a>
-						<ul> 
-							<li> <a href="#">Web Design</a></li>
-							<li> <a href="#">Programming Language</a></li>
-							<li> <a href="#">Microsoft</a></li>
+						<ul>  
+							<li> <a href="courses/Web Design.php">Web Design</a></li>
+							<li> <a href="courses/Programming Language.php" >Programming Language</a></li>
+							<li> <a href="courses/Microsoft.php" >Microsoft</a></li>
 						</ul>
 					</li>
 					

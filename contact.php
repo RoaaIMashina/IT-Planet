@@ -25,22 +25,22 @@ include "nav.php";
             <form action="" method="post" role="form" class="contactForm">
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
-                  data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
+                  data-msg="Please enter at least 4 chars"required />
+                <div class="validation" ></div>
               </div>
               <div class="form-group">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
-                  data-msg="Please enter a valid email" />
+                  data-msg="Please enter a valid email"required />
                 <div class="validation"></div>
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
-                  data-msg="Please enter at least 8 chars of subject" />
+                  data-msg="Please enter at least 8 chars of subject" required/>
                 <div class="validation"></div>
               </div>
               <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
-                  placeholder="Message"></textarea>
+                  placeholder="Message" required></textarea>
                 <div class="validation"></div>
               </div>
 
@@ -93,14 +93,17 @@ include "nav.php";
   
   <!-- sign up form @ola khja-->
   <section id="contact">
-    <div class="contact-page" style="width:50%;">
+    <div class="contact-page" style="width:40%;">
      
         <div class="join">
           <h2>Join Us</h2>
         </div>
           <div class="form-container">
              
-            <form action="db.php" method="post"  class="contactForm">
+            <form action="db.php" method="post"  class="contactForm"style="
+    width: 60%;
+    margin-left: 20%;
+">
               <div class="form-group">
                 <input type="text" name="Fname" class="form-control" id="Fname" placeholder="Your First Name" data-rule="minlen:4" data-msg="Please enter at least 3 chars" />
                 <div class="validation"></div>

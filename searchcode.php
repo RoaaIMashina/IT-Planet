@@ -13,9 +13,8 @@
            <div class="form-group">
     <div class="input-group">
             <span class="input-group-addon"  style="  background-color:#a6c1ee;"  >Search</span>
-                <input type="text" name="search" id="search" class="form-control" placeholder="Enter cours Name" style="width:15%"/>  
-                
-           </div> <div id="searchList"style="width:20%"></div>   </div>  
+                <input type="text" name="search" id="search" class="form-control" placeholder="Enter cours Name" style="width:150px;"/>  
+                  </div> <div ><a  href="#searchList"  id="searchList" ></a></div>   </div>   
       </body>  
  </html>  
  <script>  
