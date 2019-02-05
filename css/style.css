@@ -841,3 +841,6 @@ nav  ul li ul li a:hover {
 	color:red;
 	font-weight:bold;
 }
+#empty-div{
+	min-height:120px;
+}
