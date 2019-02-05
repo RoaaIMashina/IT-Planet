@@ -46,7 +46,7 @@ include 'nav.php';
 <ul style="list-style-type: none;
     margin-left: -43px;">
   <li><a href="adman/addcourse.php">Add Cursess</a></li>
-<li><a href="deletcourses.php">Delete Cursess</a></li>
+<li><a href="adman/deletcourses.php">Delete Cursess</a></li>
 <li><a href="">user Details</a></li>
 </ul>
 
