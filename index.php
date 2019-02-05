@@ -45,7 +45,7 @@ include 'nav.php';
     margin-top: -34px;">Adman settings</p>
 <ul style="list-style-type: none;
     margin-left: -43px;">
-  <li><a href="">Add Cursess</a></li>
+  <li><a href="adman/addcourse.php">Add Cursess</a></li>
 <li><a href="">Delete Cursess</a></li>
 <li><a href="">user Details</a></li>
 </ul>
