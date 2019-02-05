@@ -319,7 +319,7 @@ Responsive Web Design is used in all types of modern web development.</p>
 					
 					
 					
-                   <div class="col-md-4 wow fadeInRight">
+                   <div class="col-md-4 wow fadeInRight" style="margin-top: 67px;">
                    <h3>JavaScrpit</h3>
                    <div >
            <video id="myVideo" width="320" height="176" controls="controls" poster="images/css.png">
