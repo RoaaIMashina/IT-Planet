@@ -70,7 +70,7 @@
 					
 				';
 					if($_SESSION['u_type'] == 0){
-						echo'<li><a href="contact.php">contact</a></li>';
+						echo'<li><a href="../contact.php">contact</a></li>';
 					}
 					echo'<li>
 							<form action="../mylogout.php" method="post" class="logout">
@@ -84,8 +84,8 @@
 		{
 			echo
 				'<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.php">Home</a></li>
-					<li><a href="contact.php">contact</a></li>
+					<li><a href="../index.php">Home</a></li>
+					<li><a href="../contact.php">contact</a></li>
 					<li id="loginLink"><a  href="#">login</a></li>
 					<li id="signuplink"><a href="#">sign up</a></li>
 				</ul>';
