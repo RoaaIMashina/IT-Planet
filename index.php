@@ -222,8 +222,11 @@ This tutorial will teach you CSS from basic to advanced.</p>
   </section>
   <!--/#accordion-->
 <!-- portfolio by : hajer layas -->
+
 <div id= "portfolio">
+<h4 style="margin-left: 250px;">YOU CAN GET TO KNOW WHAT ARE THE BEST PROGRAMS TO USE IN THE FOLLOWING SECTIONS HERE :</h4>
 <div id="myBtnContainer">
+
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('Web Devolepment')"> Web Devolepment</button>
   <button class="btn" onclick="filterSelection('Programming')"> Programming </button>
@@ -234,48 +237,49 @@ This tutorial will teach you CSS from basic to advanced.</p>
 <div class="row">
 
   <div class="column Web Devolepment" id="pf">
-      <img src="images/notpad.png" alt="Notpad++" class="img">
+     <a href="https://notepad-plus-plus.org/download/v7.6.3.html" > <img src="images/notpad.png" alt="Notpad++" class="img">
  </div>
   
 <div class="column Web Devolepment" id="pf">
-      <img src="images/sublime.png" alt="Sublime" class="img">
+     <a href="https://www.sublimetext.com/" > <img src="images/sublime.png" alt="Sublime" class="img">
     </div>
 	
   <div class="column Web Devolepment" id="pf">
-      <img src="images/atom.png" alt="Atom" class="img" >
+     <a href="https://atom.io/" > <img src="images/atom.png" alt="Atom" class="img" >
     </div>
 	
   <div class="column Microsoft" id="pf">
-      <img src="images/word.png" alt="Microsoft Word" class="img">
+     <a href="https://www.office.com/" > <img src="images/word.png" alt="Microsoft Word" class="img">
 </div>
 	
   <div class="column Programming" id="pf">
-      <img src="images/codeblocks.png" alt="Codeblocks" class="img" >
+    <a href="http://www.codeblocks.org/downloads" >  <img src="images/codeblocks.png" alt="Codeblocks" class="img" >
  </div>
 	
   <div class="column Programming" id="pf">
-      <img src="images/netbeans.png" alt="Netbeans" class="img">
+    <a href="https://netbeans.org/" >  <img src="images/netbeans.png" alt="Netbeans" class="img">
   </div>
   
 <div class="column Microsoft" id="pf">
-      <img src="images/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" >
+    <a href="https://www.office.com/" >  <img src="images/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" >
 </div>
 	
   <div class="column Microsoft" id="pf">
-      <img src="images/access.png" alt="Microsoft Access" class="img" >
+     <a href="https://www.office.com/" > <img src="images/access.png" alt="Microsoft Access" class="img" >
  </div>
 	
     <div class="column Programming" id="pf">
-      <img src="images/eclipse.png" alt="Eclipse" class="img">
+     <a href="https://www.eclipse.org/" > <img src="images/eclipse.png" alt="Eclipse" class="img">
 </div>
 	
    <div class="column Microsoft" id="pf">
-      <img src="images/exal.png" alt="Microsoft Excel" class="img">
+     <a href="https://www.office.com/" > <img src="images/exal.png" alt="Microsoft Excel" class="img">
  </div>
 <!-- END GRID -->
 </div>
 </div>
 <!--end portfolio-->
+
 	
 <!--aya.almokhzanji@gmail.com-->
 <!--popup image-->
