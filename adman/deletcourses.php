@@ -15,7 +15,7 @@ $conn= new mysqli($servername,$username,$password,$dbname);
  ?>  
  <html>  
       <head>  
-           <title>PHP Mysql Ajax Crud using OOPS - Fetch Data</title>  
+           <title>Delete Courses</title>  
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
@@ -126,7 +126,7 @@ $sql1 = "select id_L, nameL FROM lecture WHERE id_C='".$row['id_C']."' ;";
                           processData:false,  
                           success:function(data)  
                           {  
-                               alert();  
+                               alert("Data Deleted");  
                                $("#id")[0].reset();  
                                load_data();
 

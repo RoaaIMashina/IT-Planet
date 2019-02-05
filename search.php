@@ -12,7 +12,8 @@
       {  
            while($row = mysqli_fetch_array($result))  
            {  
-                $output .= '<li>'.$row["nameL"].'</li>';  
+                $s = '<a href= '.'courses/'.rawurlencode($row["nameL"]).'.php>' .$row["nameL"].'</a>';
+                $output .= '<li>'.$s.'</li>';
            }  
       }  
       else  

@@ -46,7 +46,7 @@ include 'nav.php';
 <ul style="list-style-type: none;
     margin-left: -43px;">
   <li><a href="adman/addcourse.php">Add Cursess</a></li>
-<li><a href="">Delete Cursess</a></li>
+<li><a href="adman/deletcourses.php">Delete Cursess</a></li>
 <li><a href="">user Details</a></li>
 </ul>
 
@@ -134,12 +134,21 @@ include 'nav.php';
 <!--#accordion-->
   <section id="about">
     <div class="container">
-	     <?php
-         include 'searchcode.php';
+	      <?php
+		 if(isset($_SESSION['u_email']))
+		 {
+			if($_SESSION['u_type'] == 1 || $_SESSION['u_type'] == 0){
+				include 'searchcode.php';
+			}
+			
+		}
+		else {
+				echo'<div id="empty-div"></div>';
+			}
          ?>
       <div class="center">
         <div class="col-md-6 col-md-offset-3">
-          <h2>the most shosen courses</h2>
+          <h2>the most chosen courses</h2>
           <hr>
           <p class="lead">welcome to our website  <br> we provide several types of courses of information technology 
 		  <br> sign up now to check them out!</p>
@@ -224,7 +233,10 @@ This tutorial will teach you CSS from basic to advanced.</p>
 <!-- portfolio by : hajer layas -->
 
 <div id= "portfolio">
-<h4 style="margin-left: 250px;">YOU CAN GET TO KNOW WHAT ARE THE BEST PROGRAMS TO USE IN THE FOLLOWING SECTIONS HERE :</h4>
+<div id="portfolio-intro">
+	The following applications represent the most important<br> tools for learning the courses <br>available in this<br> website<br>
+	<div id="portfolio-click">click below to check them out</div> 
+</div>
 <div id="myBtnContainer">
 
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
