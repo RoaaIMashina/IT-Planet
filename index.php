@@ -318,7 +318,7 @@ Responsive Web Design is used in all types of modern web development.</p>
                    <div class="col-md-4 wow fadeInRight">
                    <h3>JavaScrpit</h3>
                    <div >
-           <video id="myVideo" width="320" height="176" controls="controls">
+           <video id="myVideo" width="320" height="176" controls="controls" poster="images/css.png">
   <source src="video/js.mp4" type="video/mp4"> <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support HTML5 video.
 </video>     <p>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. 
