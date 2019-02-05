@@ -134,8 +134,17 @@ include 'nav.php';
 <!--#accordion-->
   <section id="about">
     <div class="container">
-	     <?php
-         include 'searchcode.php';
+	      <?php
+		 if(isset($_SESSION['u_email']))
+		 {
+			if($_SESSION['u_type'] == 1 || $_SESSION['u_type'] == 0){
+				include 'searchcode.php';
+			}
+			
+		}
+		else {
+				echo'<div id="empty-div"></div>';
+			}
          ?>
       <div class="center">
         <div class="col-md-6 col-md-offset-3">
