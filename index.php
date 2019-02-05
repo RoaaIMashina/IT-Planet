@@ -237,43 +237,43 @@ This tutorial will teach you CSS from basic to advanced.</p>
 <div class="row">
 
   <div class="column Web Devolepment" id="pf">
-     <a href="https://notepad-plus-plus.org/download/v7.6.3.html" > <img src="images/notpad.png" alt="Notpad++" class="img">
+     <a href="https://notepad-plus-plus.org/download/v7.6.3.html" > <img src="images/notpad.png" alt="Notpad++" class="img"></a>
  </div>
   
 <div class="column Web Devolepment" id="pf">
-     <a href="https://www.sublimetext.com/" > <img src="images/sublime.png" alt="Sublime" class="img">
+     <a href="https://www.sublimetext.com/" > <img src="images/sublime.png" alt="Sublime" class="img"></a>
     </div>
 	
   <div class="column Web Devolepment" id="pf">
-     <a href="https://atom.io/" > <img src="images/atom.png" alt="Atom" class="img" >
+     <a href="https://atom.io/" > <img src="images/atom.png" alt="Atom" class="img" ></a>
     </div>
 	
   <div class="column Microsoft" id="pf">
-     <a href="https://www.office.com/" > <img src="images/word.png" alt="Microsoft Word" class="img">
+     <a href="https://www.office.com/" > <img src="images/word.png" alt="Microsoft Word" class="img"></a>
 </div>
 	
   <div class="column Programming" id="pf">
-    <a href="http://www.codeblocks.org/downloads" >  <img src="images/codeblocks.png" alt="Codeblocks" class="img" >
+    <a href="http://www.codeblocks.org/downloads" >  <img src="images/codeblocks.png" alt="Codeblocks" class="img" ></a>
  </div>
 	
   <div class="column Programming" id="pf">
-    <a href="https://netbeans.org/" >  <img src="images/netbeans.png" alt="Netbeans" class="img">
+    <a href="https://netbeans.org/" >  <img src="images/netbeans.png" alt="Netbeans" class="img"></a>
   </div>
   
 <div class="column Microsoft" id="pf">
-    <a href="https://www.office.com/" >  <img src="images/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" >
+    <a href="https://www.office.com/" >  <img src="images/powerpoint.jpg" alt="Microsoft Powerpoint" class="img" ></a>
 </div>
 	
   <div class="column Microsoft" id="pf">
-     <a href="https://www.office.com/" > <img src="images/access.png" alt="Microsoft Access" class="img" >
+     <a href="https://www.office.com/" > <img src="images/access.png" alt="Microsoft Access" class="img" ></a>
  </div>
 	
     <div class="column Programming" id="pf">
-     <a href="https://www.eclipse.org/" > <img src="images/eclipse.png" alt="Eclipse" class="img">
+     <a href="https://www.eclipse.org/" > <img src="images/eclipse.png" alt="Eclipse" class="img"></a>
 </div>
 	
    <div class="column Microsoft" id="pf">
-     <a href="https://www.office.com/" > <img src="images/exal.png" alt="Microsoft Excel" class="img">
+     <a href="https://www.office.com/" > <img src="images/exal.png" alt="Microsoft Excel" class="img"></a>
  </div>
 <!-- END GRID -->
 </div>
