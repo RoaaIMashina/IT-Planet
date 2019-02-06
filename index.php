@@ -90,7 +90,7 @@ include 'admin.php';
     </div>
     <!--/#contact-page-->
   </section>
- 
+ <!-- @roaa mashina-->
 <!--#accordion-->
   <section id="about">
     <div class="container">
