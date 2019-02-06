@@ -56,7 +56,9 @@ $conn= new mysqli($servername,$username,$password,$dbname);
                 <h3 align="center">Delete Courses</h3><br />  
                 <br />  
 
-                <button type="button" name="Delete" class="btn btn-success" data-toggle="collapse" data-target="#user_collapse">Delete</button>  
+                <button type="button" name="Delete" class="btn btn-success" data-toggle="collapse" data-target="#user_collapse" style="
+    background-color: #f73329;
+    border-color: #f73329;">Delete</button>  
                 <br /><br />  
                 <div id="user_collapse" class="collapse">  
                      <form method="post" id="user_form"> 
