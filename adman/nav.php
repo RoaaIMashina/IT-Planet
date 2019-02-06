@@ -65,7 +65,7 @@
 					}
 					echo'<li>
 							<form action=../"mylogout.php" method="post" class="logout">
-								<button class="logout" type="submit" name="logout" onclick="../mylogout.php">Logout</button>
+								<button class="logout" type="submit" name="logout" onclick="mylogout.php"><img src="../images/log-out.svg" width="30px" height="30px"></button>
 							</form>
 						</li>
 				</ul>';
@@ -77,8 +77,8 @@
 				'<ul class="nav navbar-nav navbar-right">
 					<li><a href="../index.php">Home</a></li>
 					<li><a href="../contact.php">contact</a></li>
-					<li id="loginLink"><a  href="#">login</a></li>
 					<li id="signuplink"><a href="#">sign up</a></li>
+					<li id="loginLink"><a  href="#"><img src="../images/in.svg" width="30px" height="30px"></a></li>
 				</ul>';
 		}
 	?>
