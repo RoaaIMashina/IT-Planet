@@ -36,11 +36,11 @@
     color: #053d6a;
     text-align: center;
     font-size: 30px;
-    margin-top: -34px;">Adman settings</p>
+    margin-top: -34px;">Admin settings</p>
 <ul style="list-style-type: none;
     margin-left: -43px;">
-  <li><a href="adman/addcourse.php">Add Cursess</a></li>
-<li><a href="adman/deletcourses.php">Delete Cursess</a></li>
+  <li><a href="adman/addcourse.php">Add Courses</a></li>
+<li><a href="adman/deletcourses.php">Delete Courses</a></li>
 <li><a href="adman/user.php">user Details</a></li>
 </ul>
 
