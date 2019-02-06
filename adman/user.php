@@ -1,4 +1,6 @@
 <?php 
+//<!--@roaa mashina -->
+//<!--user table -->
 include 'nav.php';
 $servername = "localhost";
 $username = "root";
