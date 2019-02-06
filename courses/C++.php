@@ -7,6 +7,9 @@ include "db.php";
 <html lang="en">
 
 <body style="background-color:#d6e8ea; color:black">
+<?php 
+include "admin.php";
+?>
  <form method="post"> 
 <div class="inline-container">
 <div id="C">
