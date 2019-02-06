@@ -48,7 +48,10 @@ $conn= new mysqli($servername,$username,$password,$dbname);
     border: 1px solid #0a0a0a;}
            </style>  
       </head>  
-      <body>  
+      <body> 
+       <?php
+         include 'admin.php'; 
+       ?>
            <div class="container box">  
                 <h3 align="center">Delete Courses</h3><br />  
                 <br />  
@@ -127,8 +130,7 @@ $sql1 = "select id_L, nameL FROM lecture WHERE id_C='".$row['id_C']."' ;";
                           success:function(data)  
                           {  
                                alert("Data Deleted");  
-                               $("#id")[0].reset();  
-                               load_data();
+                            location.reload();
 
                           }  
                      })  
