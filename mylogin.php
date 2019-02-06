@@ -3,29 +3,20 @@
 /*@Ola khoja */
 /* validating login form*/
 
-	if(isset($_POST['login'])){ //submit is the button name
+	if(isset($_POST['login'])){ 
 	
 		include 'db.php';
 	
 		$uid = ($_POST['uid']);
 		$pwd = ($_POST['pwd']);
 		
-		/*$errorEmail = false;
-		$errorpwd = false;*/
 		
 		if(empty($uid) || empty($pwd)){
 		
 			header("Locatin: index.php?login=empty");
 			exit();
 		}
-		/*else {
-			//$sql="SELECT * FROM users WHERE email='$uid'";
-			$result=mysqli_query($conn,$sql);
-			$resultCheck=mysqli_num_rows($result);
-			if($resultCheck < 1){
-				header("Locatin: index.php?login=error1");
-				exit();
-			}*/
+		
 		else{
 			//this checks if the statment work in the database
 			$sql="SELECT * FROM users WHERE email=?;";
@@ -38,32 +29,10 @@
 				mysqli_stmt_bind_param($stmt, "s",$uid);
 				mysqli_stmt_execute($stmt);
 				$result = mysqli_stmt_get_result($stmt);
-				/*if($row =mysqli_fetch_assoc($result)){
-					$hashedPwdCheck = password_verify($pwd, $row['password']);
-					if($hashedPwdCheck==false){
-						header("Location: index.php?login=wrongpwd");
-						exit();
-					}
-					elseif($hashedPwdCheck==true){
-						session_start();
-						$_SESSION['u_email'] = $row['email'];
-						$_SESSION['u_first'] = $row['firstname'];
-						$_SESSION['u_last'] = $row['lastname'];
-						$_SESSION['u_pass'] = $row['password'];
-						header("Location: index.php?login=success");
-						exit();
-					}
-					else {
-						header("Location: index.php?error=wrongpwd");
-						exit();
-					}*/
-					}
-					
+				
 				if($row = mysqli_fetch_assoc($result)){
 					if($pwd != $row['password']){
-						//header("Location: index.php?login=error2");
-						/*echo '<span class="form-error"> wrong password! </span>';
-						$errorpwd = true;*/
+						
 						exit('please check your password!');
 					}
 					elseif($pwd == $row['password']){
@@ -79,10 +48,7 @@
 				}
 				
 				else {
-					/*header("Location: index.php?error=nouser");*/
 					exit('Email is invalid !');
-					/*echo '<span class="form-error"> Email invalid! </span>';
-					$errorEmail = true;*/
 				}
 			}
 				
