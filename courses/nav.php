@@ -33,7 +33,7 @@
         <div class="site-logo">
           <a href="index.php" class="brand"><img src="../images/logo.png" style="    width: 15%;
     margin-top: -29px;
-    margin-bottom: -29px;"></a>
+    margin-bottom: -29px; margin-left: 150px;"></a>
         </div>
 
         <!-- Brand and toggle get grouped for better mobile display -->
