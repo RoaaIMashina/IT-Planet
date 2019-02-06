@@ -21,8 +21,8 @@
   <link href="../css/style.css" rel="stylesheet">
   <link href="../css/style1.css" rel="stylesheet">
   <link href="courses.css" rel="stylesheet">
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/popup.js"></script>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/popup.js"></script>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
@@ -61,11 +61,11 @@
 					
 				';
 					if($_SESSION['u_type'] == 0){
-						echo'<li><a href="contact.php">contact</a></li>';
+						echo'<li><a href="../contact.php">contact</a></li>';
 					}
 					echo'<li>
 							<form action="../mylogout.php" method="post" class="logout">
-								<button class="logout" type="submit" name="logout" onclick="../mylogout.php">Logout</button>
+								<button class="logout" type="submit" name="logout" onclick="mylogout.php"><img src="../images/log-out.svg" width="30px" height="30px"></button>
 							</form>
 						</li>
 				</ul>';
@@ -77,8 +77,8 @@
 				'<ul class="nav navbar-nav navbar-right">
 					<li><a href="../index.php">Home</a></li>
 					<li><a href="../contact.php">contact</a></li>
-					<li id="loginLink"><a  href="#">login</a></li>
 					<li id="signuplink"><a href="#">sign up</a></li>
+                    <li id="loginLink"><a  href="#"><img src="../images/in.svg" width="30px" height="30px"></a></li>
 				</ul>';
 		}
 	?>
