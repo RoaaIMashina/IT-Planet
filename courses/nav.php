@@ -38,7 +38,7 @@
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <!-- <div id="menu">
+        <div id="menu">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">Home</a></li>
             <li><a href="">courses</a></li>
@@ -70,7 +70,7 @@
 					
 				';
 					if($_SESSION['u_type'] == 0){
-						echo'<li><a href="../contact.php">contact</a></li>';
+						echo'<li><a href="contact.php">contact</a></li>';
 					}
 					echo'<li>
 							<form action="../mylogout.php" method="post" class="logout">
