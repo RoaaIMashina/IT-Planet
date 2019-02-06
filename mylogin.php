@@ -11,6 +11,7 @@
 		$pwd = ($_POST['pwd']);
 		
 		
+		
 		if(empty($uid) || empty($pwd)){
 		
 			header("Locatin: index.php?login=empty");
@@ -30,6 +31,8 @@
 				mysqli_stmt_execute($stmt);
 				$result = mysqli_stmt_get_result($stmt);
 				
+					}
+					
 				if($row = mysqli_fetch_assoc($result)){
 					if($pwd != $row['password']){
 						
@@ -48,7 +51,9 @@
 				}
 				
 				else {
+					/*header("Location: index.php?error=nouser");*/
 					exit('Email is invalid !');
+					
 				}
 			}
 				
