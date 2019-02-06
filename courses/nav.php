@@ -38,15 +38,6 @@
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div id="menu">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="">courses</a></li>
-            <li><a href="contact.php">contact</a></li>
-            <li id="loginLink"><a  href="#">login</a></li>
-            <li id="signuplink"><a href="#">sign up</a></li>
-          </ul>
-        </div>
         <!-- /.Navbar-collapse -->
 		<div id="menu">
 		<?php
