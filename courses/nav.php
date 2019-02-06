@@ -31,7 +31,7 @@
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
         <div class="site-logo">
-          <a href="index.php" class="brand"><img src="../images/logo.png" style="    width: 15%;
+          <a href="../index.php" class="brand"><img src="../images/logo.png" style="    width: 15%;
     margin-top: -29px;
     margin-bottom: -29px; margin-left: 150px;"></a>
         </div>
