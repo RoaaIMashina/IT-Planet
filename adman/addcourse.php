@@ -50,7 +50,12 @@ $conn= new mysqli($servername,$username,$password,$dbname);
     border: 1px solid #0a0a0a;}
            </style>  
       </head>  
-      <body>  
+      <body> 
+   <?php
+include 'admin.php';
+?>
+
+ 
            <div class="container box">  
                 <h3 align="center">Add Courses</h3><br />  
                 <br />  
