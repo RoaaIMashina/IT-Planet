@@ -27,7 +27,7 @@
 
 <body>
 
-  <footer id="footer" class="midnight-blue">
+  <footer id="footer" class="midnight-blue"style=" width: 102%;">
 
             <a href="#top" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
 	 
