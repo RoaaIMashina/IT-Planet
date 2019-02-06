@@ -10,8 +10,11 @@ include "db.php";
 
 </head>
 
+
 <body style="background-color:#d6e8ea; color:black">
-  
+  <?php 
+include "admin.php";
+?>
 <div class="inline-container">
 <div id="C">
 
