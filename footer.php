@@ -32,7 +32,7 @@
             <a href="#top" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
 	 
           <div class="text">
-          &copy; OnePage Theme. All Rights Reserved.<br>
+          &copy; IT PLANET,2019.<br>
         
         this website was made as an assignment for advanced internet programming "ITSE412" -<br> factulty of information technology - University of Tripoli
            
