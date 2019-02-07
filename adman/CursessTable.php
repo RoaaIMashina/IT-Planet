@@ -30,8 +30,8 @@
                 <tr>  
                       
                      <th width="2%">ID</th>
-                       <th width="2%">logo</th>
-                     <th width="5%">name</th>
+                       <th width="5%">name</th>
+                     <th width="2%">logo</th>
                      <th width="35%">explanation</th> 
                      <th width="5%">content</th> 
                      <th width="10%">example</th>
