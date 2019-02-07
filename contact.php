@@ -1,5 +1,25 @@
 <?php 
 include "nav.php";
+//send message by : hajer layas 
+ if(isset($_POST["send"])) {
+       $name =$_POST["name"];
+       $email=$_POST["email"];
+       $subject=$_POST["subject"];
+	   $message =$_POST["message"];
+       $d=mysqli_connect("localhost","root","","ITPLANET");
+       if($d===false){
+       die("error".mysqli_connect_error());}
+       else {$r=("insert into message (name,email,subject,message) VALUES ('$name','$email','$subject','$message')");}
+       if(mysqli_query($d,$r)){
+       
+          $result=mysqli_query($d,$r); 
+       header("Location: index.php ");}
+          
+              
+                             else {
+echo"no".mysqli_error($d);}}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +30,7 @@ include "nav.php";
 </head>
 
 <body>
-
+<!-- contact by : hajer layas -->
 
  <section >
     <div class="contact">
@@ -44,7 +64,7 @@ include "nav.php";
                 <div class="validation"></div>
               </div>
 
-              <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
+              <div class="text-center"><button type="submit" name="send" class="btn btn-primary btn-lg">Send Message</button></div>
             </form>
           </div>
         </div>
