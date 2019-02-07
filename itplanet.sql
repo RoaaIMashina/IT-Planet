@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 07, 2019 at 11:34 AM
+-- Generation Time: Feb 07, 2019 at 03:03 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -81,6 +81,21 @@ INSERT INTO `lecture` (`id_L`, `id_C`, `nameL`, `logo`, `par1`, `par2`, `par3`, 
 (10, 3, 'Microsoft Power Point', 'images/icons8-microsoft-powerpoint.svg', 'What is PowerPoint?', 'PowerPoint is a computer program that allows you to create and show slides to support a presentation. You can combine text, graphics and multi-media content to create professional presentations. As a presentation tool PowerPoint can be used to:<br>\n\n1.organise and structure your presentation;<br>\n2.create a professional and consistent format;<br>\n3.provide an illustrative backdrop for the content of your presentation;<br> 4.animate your slides to give them greater visual impact.\n', '', 'images/PP1.png', 'PowerPoint has become enormously popular and you are likely to have seen it used by your lecturers and fellow students or in a presentation outside of the University. Learning to present with PowerPoint will increase your employability as it is the world''s most popular presentational software. Used well, PowerPoint can improve the clarity of your presentations and help you to illustrate your message and engage your audience. The strategies contained in this study guide will help you to use PowerPoint effectively in any type of presentation', 'images/p2.png', 'video/PPV1.mp4', 'video/PPV2.mp4', 'images/ppcover.jpg'),
 (11, 3, 'Microsoft Office Access', 'images/icons8-microsoft-access.svg', 'Microsoft Access is a database management system (DBMS) from Microsoft that combines the relational Microsoft Jet Database Engine with a graphical user interface and software-development tools. It is a member of the Microsoft Office suite of applications, included in the Professional and higher editions or sold separately.', 'Microsoft Access stores data in its own format based on the Access Jet Database Engine. It can also import or link directly to data stored in other applications and databases', '', 'images/how_to_create_a_totals_row_in_access.png', 'Software developers, data architects and power users can use Microsoft Access to develop application software. Like other Microsoft Office applications, Access is supported by Visual Basic for Applications (VBA), an object-based programming language that can reference a variety of objects including DAO (Data Access Objects), ActiveX Data Objects, and many other ActiveX components. Visual objects used in forms and reports expose their methods and properties in the VBA programming environment, and VBA code modules may declare and call Windows operating system operations.<br>', 'images/access-matrix.png', 'video/Access 2016 1.mp4', 'video/Microsoft Access 2016.mp4', 'images/accessCover.jfif'),
 (12, 3, 'Microsoft Excel', 'images/icons8-microsoft-excel.svg', 'If you have Microsoft Office installed, but have never touched Excel before because you either didn''t know how to use it or didn''t know what it could do for you, then you MUST read this post on learning how to use Excel!', '', '', 'images/MSE1.png', 'Microsoft Excel is a powerful spreadsheet application that can be used for anything from a simple database all the way up to a full fledged Windows application full with windows forms, macros, and add-ons. You can use Excel to calculate a car loan payment, graph data, manage customer records, keep an address book, etc. <br>\nExcel is currently used by most large financial institutions for daily financial data analysis. It has a huge range of financial functions, formulas, and add-ons that allows you to use Excel to store and analyze data in a simple, quick way.\n', 'images/MSE2.png', 'video/Microsoft Excel1.mp4', 'video/Microsoft Excel2.mp4', 'images/excelcover.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `message`
+--
+
+CREATE TABLE IF NOT EXISTS `message` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `subject` varchar(100) NOT NULL,
+  `message` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 -- --------------------------------------------------------
 
