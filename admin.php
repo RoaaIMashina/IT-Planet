@@ -6,6 +6,9 @@
 	<title></title>
 </head>
 <body>
+<script>function closeModal() {
+  document.getElementById('b').style.display = "none";
+}</script>
  <div id="a" style=" display: none; 
   position: fixed; 
   z-index: 1; 
@@ -15,8 +18,11 @@
   height: 100%; 
   background-color: black; 
   background-color: rgba(0,0,0,0.69); ">
-  
-    <section style=" width: 26%;
+   <div class="modal-content">  
+
+                             <span class="close cursor" onclick="closeModal()">&times;</span>
+   </div>
+    <section id="b" style=" width: 26%;
     margin-bottom: 106px;
     margin-top: 177px;
     padding: 50px;
