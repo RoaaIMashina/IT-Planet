@@ -71,7 +71,7 @@ include 'admin.php';
                        <th width="2%">First Name</th>
                      <th width="5%">Last Name</th>
                      <th width="35%">Email</th> 
-                     <th width="5%">Password</th>
+                     
                 </tr>
                 <?php   $sql = "SELECT * FROM users WHERE userType=0";
 $result = $conn->query($sql);
@@ -86,7 +86,7 @@ if ($result->num_rows > 0) {
                      <td>'.$row["firstname"].'</td> 
                      <td>'.$row["lastname"].'</td> 
                     <td>'.$row["email"].'</td> 
-                    <td>'.$row["password"].'</td> 
+                     
                 </tr>'; }}?>
                 	</table>
 
