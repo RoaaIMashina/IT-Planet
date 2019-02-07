@@ -38,7 +38,7 @@
     font-size: 30px;
     margin-top: -34px;">Admin settings</p>
 <ul style="list-style-type: none;
-    margin-left: -43px;">
+    margin-left: -43px;font-size: 23px;">
   <li><a href="adman/addcourse.php">Add Courses</a></li>
 <li><a href="adman/deletcourses.php">Delete Courses</a></li>
 <li><a href="adman/user.php">user Details</a></li>

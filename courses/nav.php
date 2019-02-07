@@ -21,7 +21,9 @@
   <link href="../css/style.css" rel="stylesheet">
   <link href="../css/style1.css" rel="stylesheet">
   <link href="courses.css" rel="stylesheet">
+  <script src="../js/adman.js"></script>
   <script src="../js/jquery-3.3.1.min.js"></script>
+  
   <script src="../js/popup.js"></script>
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -31,7 +33,7 @@
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
         <div class="site-logo">
-          <a href="index.php" class="brand"><img src="../images/logo.png" style="    width: 15%;
+          <a href="../index.php" class="brand"><img src="../images/logo.png" style="    width: 15%;
     margin-top: -29px;
     margin-bottom: -29px; margin-left: 150px;"></a>
         </div>
@@ -43,7 +45,7 @@
 		<?php
 		if(isset($_SESSION['u_email'])){
 			if($_SESSION['u_type'] == 1){
-				echo '<a href=""><img  class="settings-logo" src="../images/icons8-settings.svg" width="50px" height="50px"></a>';
+				echo '<ul><li id="admen"><a href="#"><img  class="settings-logo" src="../images/icons8-settings.svg" width="50px" height="50px"></a></li></ul>';
 			}
 			
 			// 1 means admin and 0 means normal user.
@@ -65,7 +67,7 @@
 					}
 					echo'<li>
 							<form action="../mylogout.php" method="post" class="logout">
-								<button class="logout" type="submit" name="logout" onclick="mylogout.php"><img src="../images/log-out.svg" width="30px" height="30px"></button>
+								<button class="logout" type="submit" name="logout" onclick="../mylogout.php">Logout</button>
 							</form>
 						</li>
 				</ul>';
@@ -77,8 +79,9 @@
 				'<ul class="nav navbar-nav navbar-right">
 					<li><a href="../index.php">Home</a></li>
 					<li><a href="../contact.php">contact</a></li>
+					<li id="loginLink"><a  href="#">login</a></li>
 					<li id="signuplink"><a href="#">sign up</a></li>
-                    <li id="loginLink"><a  href="#"><img src="../images/in.svg" width="30px" height="30px"></a></li>
+                    
 				</ul>';
 		}
 	?>
