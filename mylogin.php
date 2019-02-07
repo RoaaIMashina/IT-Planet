@@ -29,9 +29,10 @@
 			else {
 				mysqli_stmt_bind_param($stmt, "s",$uid);
 				mysqli_stmt_execute($stmt);
-				$result = mysqli_stmt_get_result($stmt);}
+				$result = mysqli_stmt_get_result($stmt);
+				}
 				
-					}
+			}
 					
 				if($row = mysqli_fetch_assoc($result)){
 					if($pwd != $row['password']){
@@ -55,9 +56,9 @@
 					exit('Email is invalid !');
 					
 				}
-			}
-				
 	}
+				
+	
 	else {
 		header("Location: index.php?login=error");
 		echo '<span class="form-error"> </span>';
