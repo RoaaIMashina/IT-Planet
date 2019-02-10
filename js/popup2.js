@@ -21,7 +21,7 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
 
-  var captionText = document.getElementById("caption");
+
 
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
